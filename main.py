@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+from seaborn import move_legend
 
 fandango = pd.read_csv('fandango_scrape.csv')
 print(fandango.head())
